@@ -130,4 +130,4 @@ if __name__ == "__main__":
         send_email_telegram(bot_, chat, email)
         config.set("email", "last_uid", str(mail_id))
         config.write(open("config.ini", "w"))
-        time.sleep(5)
+        time.sleep(1)
